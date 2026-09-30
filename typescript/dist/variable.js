@@ -16,4 +16,15 @@ function handleStatus(status) {
     }
 }
 handleStatus("error");
+let numbers = [2, 3, 53, 5, 7, 5];
+numbers.push(9);
+let person = ["Jesse", 25];
+person = ["bob", 34];
+var EnumStatus;
+(function (EnumStatus) {
+    EnumStatus["Success"] = "SUCCESS";
+    EnumStatus["Failure"] = "FAILED";
+})(EnumStatus || (EnumStatus = {}));
+let currentStatus = EnumStatus.Success;
+console.log(currentStatus);
 //# sourceMappingURL=variable.js.map

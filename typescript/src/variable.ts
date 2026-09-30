@@ -17,4 +17,16 @@ if (typeof strictValue === "number")
 
   handleStatus("error");
 
-  
+let numbers: number[] = [2,3,53,5,7,5];
+numbers.push(9);
+
+let person: [string, number] = ["Jesse", 25];
+person = ["bob", 34];
+
+enum EnumStatus{
+  Success = "SUCCESS",
+  Failure = "FAILED"
+}
+
+let currentStatus: EnumStatus = EnumStatus.Success
+console.log(currentStatus);
