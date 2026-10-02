@@ -12,3 +12,9 @@ const students: Student[] = [
 ];
 
 const levels = ["fail", "pass", "merit", "distinction"] as const;
+
+function average(scores: readonly number[]): number {
+  if (scores.length === 0) return 0;
+  const total = scores.reduce((sum, n) => sum + n, 0);
+  return total / scores.length;
+}
