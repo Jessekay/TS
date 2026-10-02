@@ -18,3 +18,4 @@ function average(scores: readonly number[]): number {
   const total = scores.reduce((sum, n) => sum + n, 0);
   return total / scores.length;
 }
+
