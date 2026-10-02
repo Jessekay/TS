@@ -22,3 +22,14 @@ function average(scores: readonly number[]): number {
 function findStudent(students: readonly Student[], id: number): Student | undefined {
   return students.find(s => s.id === id);
 }
+
+const found = findStudent(students, 1);
+
+if (found) {
+  console.log(found.name);
+} else {
+  console.log('Not found');
+}
+
+console.log(findStudent(students, 9));
+
