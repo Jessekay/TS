@@ -19,3 +19,6 @@ function average(scores: readonly number[]): number {
   return total / scores.length;
 }
 
+function findStudent(students: readonly Student[], id: number): Student | undefined {
+  return students.find(s => s.id === id);
+}
