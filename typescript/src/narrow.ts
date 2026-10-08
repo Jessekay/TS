@@ -5,3 +5,5 @@ function show(value: string | number) {
     return value.toFixed(2);
   }
 }
+
+console.log(show(5))
