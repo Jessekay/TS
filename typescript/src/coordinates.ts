@@ -4,3 +4,9 @@ function getCoordinates(): [number, number] {
 
 const [s, y] = getCoordinates();
 console.log([s, y]);
+
+function person([username, age]:[string, number]) {
+  console.log(`${username} is ${age} old`);
+}
+
+console.log(person(["Jonathan", 23]));

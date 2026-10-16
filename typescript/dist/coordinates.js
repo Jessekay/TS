@@ -5,4 +5,8 @@ function getCoordinates() {
 }
 const [s, y] = getCoordinates();
 console.log([s, y]);
+function person([username, age]) {
+    console.log(`${username} is ${age} old`);
+}
+console.log(person(["Jonathan", 23]));
 //# sourceMappingURL=coordinates.js.map
