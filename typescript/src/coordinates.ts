@@ -21,3 +21,13 @@ outerLoop: for (let i = 0; i < 3; i++) {
     console.log(`i: ${i}, j: ${j}`);
   }
 }
+// labeling tuple
+
+type details = [number, number];
+
+type price = [discount: number, actualPrice: number];
+
+const bottle: price = [8000, 9800];
+
+console.log(bottle);
+
