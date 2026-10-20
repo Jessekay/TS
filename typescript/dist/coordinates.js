@@ -20,4 +20,14 @@ outerLoop: for (let i = 0; i < 3; i++) {
 }
 const bottle = [8000, 9800];
 console.log(bottle);
+var FruitPrices;
+(function (FruitPrices) {
+    FruitPrices[FruitPrices["applePrice"] = 10] = "applePrice";
+    FruitPrices["peachPrice"] = "Jesse";
+    FruitPrices[FruitPrices["price"] = 1] = "price";
+})(FruitPrices || (FruitPrices = {}));
+const fruitOne = FruitPrices.applePrice;
+const fruitTwo = FruitPrices.peachPrice;
+const fruitThree = FruitPrices.price;
+console.log(fruitOne, fruitTwo, fruitThree);
 //# sourceMappingURL=coordinates.js.map

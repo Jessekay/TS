@@ -31,3 +31,16 @@ const bottle: price = [8000, 9800];
 
 console.log(bottle);
 
+enum FruitPrices {
+  applePrice = 10,
+  peachPrice = "Jesse",
+  price = 1
+}
+
+const fruitOne = FruitPrices.applePrice;
+const fruitTwo = FruitPrices.peachPrice
+const fruitThree = FruitPrices.price
+
+console.log(fruitOne, fruitTwo, fruitThree);
+
+
