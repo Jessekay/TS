@@ -18,8 +18,18 @@ type Multiple = {
   (x: number, y: number): number
 }
 
-let multiplyNumber = (a:number, b:number) => {
+let multiplyNumber: Multiple = (a:number, b:number) => {
   return a*b;
 }
 
 console.log(multiplyNumber(10, 5));
+
+interface Login {
+  (email: string, password: string): boolean
+}
+
+let loginFunction: Login = (email, pwd) => {
+  return true;
+}
+console.log(loginFunction('kayjes00@gmail.com', '99899'));
+

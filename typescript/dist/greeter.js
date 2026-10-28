@@ -11,4 +11,8 @@ let multiplyNumber = (a, b) => {
     return a * b;
 };
 console.log(multiplyNumber(10, 5));
+let loginFunction = (email, pwd) => {
+    return true;
+};
+console.log(loginFunction('kayjes00@gmail.com', '99899'));
 //# sourceMappingURL=greeter.js.map
