@@ -1,0 +1,1 @@
+{"version":3,"file":"batch-one.js","sourceRoot":"","sources":["../src/batch-one.ts"],"names":[],"mappings":";;AAAA,MAAM,OAAO;IACX,MAAM,CAAC,KAAK,GAAG,CAAC,CAAC;IAEjB,SAAS;QACP,OAAO,CAAC,KAAK,EAAE,CAAC;IAClB,CAAC;IAED,MAAM,CAAC,QAAQ;QACb,OAAO,IAAI,CAAC,KAAK,CAAC;IACpB,CAAC;CACF"}
